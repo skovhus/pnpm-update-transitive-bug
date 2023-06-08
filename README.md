@@ -1,5 +1,7 @@
 # pnpm-update-transitive-bug
 
+Filed here: https://github.com/pnpm/pnpm/issues/6657
+
 This repo demonstrates a potential bug in pnpm where transitive dependencies are unexpectatly updated when running a selective pnpm update.
 
 Steps to reproduce:
