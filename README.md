@@ -4,7 +4,7 @@ This repo demonstrates a potential bug in pnpm where transitive dependencies are
 
 Steps to reproduce:
 
-1) `pnpm update --latest prettier`
+1) `pnpm update --latest prettier` (`--latest` is not required for this to fail)
 2) `git diff pnpm-lock.yaml`
 
 ```diff
